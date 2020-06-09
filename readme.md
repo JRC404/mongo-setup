@@ -74,6 +74,7 @@ const user = new User({
 
 user.save();
 ```
+8. Run node index.js to run our user.save()
 
-8. Head to our MongoDB cluster and follow the collections tab to see our new user:
+9. Head to our MongoDB cluster and follow the collections tab to see our new user:
 ![collection](./gifs/collection.gif)
