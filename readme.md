@@ -2,6 +2,7 @@
 
 0. Prerequisites: 
     * MongoDB Atlas account found here: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+    ![atlas cluster](./gifs/atlascluster.png)
     * Node installed on your computer: [Node.js](https://nodejs.org/en/download/)
     * The Mongoose documentation open to dive deeper: [Mongoose](https://mongoosejs.com)
     * [VSCode](https://code.visualstudio.com/) installed
