@@ -1,5 +1,11 @@
 # Setting up MongoDB template
 
+0. Prerequisites: 
+    * MongoDB Atlas account found here: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+    * Node installed on your computer: [Node.js](https://nodejs.org/en/download/)
+    * The Mongoose documentation open to dive deeper: [Mongoose](https://mongoosejs.com)
+    * [VSCode](https://code.visualstudio.com/) installed
+
 1. Initialise the project with 
 ``` 
 npm init -y 
