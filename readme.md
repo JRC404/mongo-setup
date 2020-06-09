@@ -57,3 +57,17 @@ databaseURL=yourownurlhere
 ```
 You can find your URL in the connect section below. Make sure to replace your <username><password><dbname> variables with ones that match your mongodb setup:
 ![databaseURL](./gifs/databaseurl.gif)
+
+7. After we have connected our database, we need to send some data to it: 
+```javascript
+const user = new User({
+    name: 'user',
+    email: 'user@user.com',
+    password: 'ilovemongo' // super secure.
+})
+
+user.save();
+```
+
+8. Head to our MongoDB cluster and follow the collections tab to see our new user:
+![collection](./gifs/collection.gif)

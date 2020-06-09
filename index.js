@@ -20,10 +20,10 @@ mongoose.connect(`${process.env.databaseURL}`, {
 })
 // for PD... what on earth unified Topology means in the context of mongoose
 
-const dean = new User({
-    name: 'Dean',
-    email: 'deansingleton@dean.com',
-    password: 'ilovejacob'
+const user = new User({
+    name: 'user',
+    email: 'user@user.com',
+    password: 'ilovemongo'
 })
 
-dean.save();
+user.save();
